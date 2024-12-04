@@ -4,7 +4,7 @@ cantidad = 0
 
 while True:
     nota_usuario = input("Introduce una nota o escribe 'fin' para terminar: ")
-    if nota_usuario.lower() == 'fin':
+    if nota_usuario.lower() == 'fin': 
         break
     try:
         # Hacemos que la variable nota_usuario sea un float ahora ya que las nota peuden ser 6.5
